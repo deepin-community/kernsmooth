@@ -1,0 +1,327 @@
+kernsmooth (2.23-20-1) unstable; urgency=medium
+
+  * New upstream release (to experimental during freeze)
+
+  * debian/control: Set Build-Depends: to recent R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 08 May 2021 16:39:09 -0500
+
+kernsmooth (2.23-18-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Switch to virtual debhelper-compat (= 11)
+  * debian/compat: Removed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 30 Oct 2020 08:07:54 -0500
+
+kernsmooth (2.23-17-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 26 Apr 2020 08:35:16 -0500
+
+kernsmooth (2.23-16-1+1) unstable; urgency=medium
+
+  * No changes but source-only upload
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 16 Oct 2019 15:55:07 -0500
+
+kernsmooth (2.23-16-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+  * debian/control: Switch to ${R:Depends} now that dh-r is fixed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 15 Oct 2019 15:06:52 -0500
+
+kernsmooth (2.23-15-3.1) unstable; urgency=medium
+
+  * (Inofficial) Rebuild for R 3.5.0
+
+  * Manual override for ${R:Depends} while dh-r is looked at
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Depends: on ${misc:Depends}
+  * debian/control: Add Vcs-Browser: and Vcs-Git:
+  * debian/compat: Increase level to 9
+  * debian/control: Switch from cdbs to dh-r
+  * debian/rules: Idem
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 28 Apr 2018 14:29:49 -0500
+
+kernsmooth (2.23-15-3) unstable; urgency=medium
+
+  * Rebuilt under R 3.4.0 to update registration for .C() and .Fortran()
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Depends: on ${misc:Depends}
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 29 Apr 2017 09:59:08 -0500
+
+kernsmooth (2.23-15-2) unstable; urgency=medium
+
+  * debian/compat: Created
+ 
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 26 Jun 2016 07:44:37 -0500
+
+kernsmooth (2.23-15-1) unstable; urgency=low
+
+  * New upstream release
+ 
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 30 Jun 2015 09:07:58 -0500
+
+kernsmooth (2.23-14-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 11 Feb 2015 07:11:32 -0600
+
+kernsmooth (2.23-13-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 14 Sep 2014 07:19:24 -0500
+
+kernsmooth (2.23-12-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 28 Mar 2014 06:36:56 -0500
+
+kernsmooth (2.23-11-1) unstable; urgency=low
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 24 Mar 2014 06:35:33 -0500
+
+kernsmooth (2.23-10-2) unstable; urgency=low
+
+  * debian/control: Set Build-Depends: to current R version 
+  
+  * (Re-)building with R 3.0.0 (beta)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 26 Mar 2013 06:25:14 -0500
+
+kernsmooth (2.23-10-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 20 Mar 2013 08:21:31 -0500
+
+kernsmooth (2.23-9-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 03 Mar 2013 19:09:00 -0600
+
+kernsmooth (2.23-8-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Change Depends to ${R:Depends}
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 27 Jun 2012 12:26:11 -0500
+
+kernsmooth (2.23-7-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 12 Nov 2011 13:01:43 -0600
+
+kernsmooth (2.23-6-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 09 Jun 2011 17:25:41 -0500
+
+kernsmooth (2.23-5-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 06 May 2011 20:01:20 -0500
+
+kernsmooth (2.23-4-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 25 Sep 2010 12:33:57 -0500
+
+kernsmooth (2.23-3-2) unstable; urgency=low
+
+  * Rebuilt for R 2.10.0 to work with new R-internal help file conversion
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 03 Nov 2009 09:35:25 -0600
+
+kernsmooth (2.23-3-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 04 Sep 2009 14:17:16 -0500
+
+kernsmooth (2.23-2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 24 May 2009 09:29:43 -0500
+
+kernsmooth (2.23-1-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Changed Section: to new section 'gnu-r'
+  
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 3.8.1
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 05 May 2009 17:05:51 -0500
+
+kernsmooth (2.22.22-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 3.7.3
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 27 Jan 2008 10:07:54 -0600
+
+kernsmooth (2.22.21-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Upgraded (Build-)Depends: to 'r-base-dev (>= 2.5.1)'   
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 28 Jul 2007 18:59:11 -0500
+
+kernsmooth (2.22.20-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Updated (Build-)Depensd to r-base-core (>= 2.5.0)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 24 Apr 2007 22:12:52 -0500
+
+kernsmooth (2.22.19-1) unstable; urgency=low
+
+  * New upstream release for the upcoming R 2.4.0, built using the 
+    R 2.4.0 releases candidate 
+
+  * debian/control: Upgraded Build-Depends: to 'r-base-dev (>> 2.3.1)' 
+    and Depends: to 'r-base-core (>> 2.3.1)' accordingly
+
+  * debian/rules: Install into $RHOME/library, not $RHOME/site-library,
+    as KernSmooth is a recommended package
+  * debian/rules: Simplified to cdbs-based one-liner sourcing r-cran.mk 
+    (but overriding the default library location as this package is part
+     of the r-recommended bundle which install into /usr/lib/R/library)
+
+  * debian/control: Standards-Version: upgradeded to 3.7.2
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 26 Apr 2006 17:01:40 -0500
+
+kernsmooth (2.22.17-1) unstable; urgency=low
+
+  * New upstream release corresponding to R 2.3.0 
+  
+  * debian/control: Updated Build-Depends to r-base-core (>> 2.2.1) 
+  * debian/watch: Updated to version=3
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 18 Apr 2006 21:15:47 -0500
+
+kernsmooth (2.22.16-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/post{inst,rm}: No longer call R to update html help index
+  * debian/control: Upgraded Standards-Versions: to 3.6.2
+  * debian/watch: Added 'uversionmangle' to expression
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 27 Jan 2006 21:42:12 -0600
+
+kernsmooth (2.22.15-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 21 Jan 2005 20:25:41 -0600
+
+kernsmooth (2.22.14-1) unstable; urgency=low
+
+  * New upstream release for the R 2.0.0 release
+
+  * Built under R 2.0.0
+  * debian/control: Updated Build-Depends: and Depends: accordingly
+  * debian/rules: Rewritten to allow running of 'R CMD check'
+  * debian/control: Added r-cran-vr to Build-Depends
+  
+  * debian/watch: Added watch file 
+  * debian/post{inst,rm}: Added to update package.html list
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu,  7 Oct 2004 20:20:39 -0500
+
+kernsmooth (2.22.13-1) unstable; urgency=low
+
+  * New upstream release for the upcoming R 1.9.0 release
+  * Built with 1.9.0 cvs dated 2004.02.29 (in package r-base_1.8.1.cvs.20040229)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu,  4 Mar 2004 19:29:43 -0600
+
+kernsmooth (2.22.12-3) unstable; urgency=low
+
+  * debian/control: Build-Depends on 'f2c [m68k]' (Closes: #231448)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri,  6 Feb 2004 23:11:55 -0600
+
+kernsmooth (2.22.12-2) unstable; urgency=low
+
+  * debian/control: Replaces r-recommended (<< 1.9.0), not just <= 1.8.1-1
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun,  1 Feb 2004 17:28:31 -0600
+
+kernsmooth (2.22.12-1) unstable; urgency=low
+
+  * Initial Debian Release as a standalone package rather than as part of
+    the r-recommended package built from the maine r-base source package.
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 27 Jan 2004 20:53:17 -0600
+
+

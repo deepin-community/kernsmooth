@@ -1,0 +1,23 @@
+Source: kernsmooth
+Section: gnu-r
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper-compat (= 11), r-base-dev (>= 4.0.4), dh-r, r-cran-mass
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/edd/r-cran-kernsmooth
+Vcs-Git: https://salsa.debian.org/edd/r-cran-kernsmooth.git
+Homepage: https://cran.r-project.org/package=KernSmooth
+
+Package: r-cran-kernsmooth
+Architecture: any
+Depends: ${R:Depends}, ${shlibs:Depends}, ${misc:Depends}, r-cran-mass
+Replaces: r-recommended (<< 1.9.0)
+Description: GNU R package for kernel smoothing and density estimation
+ This package provides functions for kernel smoothing and density estimation
+ corresponding to M.P. Wand and M.C. Jones, "Kernel Smoothing", 1995.
+ .
+ This package is part of the set of packages that are 'recommended' 
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL: http://www.maths.unsw.edu.au/~wand
+
